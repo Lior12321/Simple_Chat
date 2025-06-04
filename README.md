@@ -1,9 +1,8 @@
 # Advanced Multi-User Chat - Socket Programming Project
-```
-This project implements a multi-user chat system using socket programming in Python.
-It consists of three main components: a server, a client, and a protocol handler.
+
+This project implements a multi-user chat system using socket programming in Python. <br>
+It consists of three main components: a server, a client, and a protocol handler. <br>
 The system supports multiple clients communicating simultaneously with features like naming, messaging, blocking users, and broadcasting messages.
-```
 
 ---
 
@@ -70,4 +69,4 @@ Simple_Chat/
 
 * The server maintains mappings between client sockets and their usernames for efficient message delivery.
 
-
+---

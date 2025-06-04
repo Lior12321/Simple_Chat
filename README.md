@@ -47,21 +47,21 @@ Simple_Chat/
 
 ---
 
-## 🛠 Running the Project
+## 🚀 Running the Project
 
 1. Run the server:
    ```
    python server.py
    ```
 2. Run one or more clients (each in a separate terminal):
-	```
-	python client.py
-	```
+    ```
+    python client.py
+    ```
 3. Use the supported commands (NAME, MSG, GET_NAMES, BLOCK, EXIT) to interact in the chat.
 
 ---
 
-## 📄 Notes
+## 📄 Notes:
 
 * The project was developed as part of an advanced socket programming exercise by Lior Masas.
 

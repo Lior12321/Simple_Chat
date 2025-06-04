@@ -1,23 +1,25 @@
 # Advanced Multi-User Chat - Socket Programming Project
-
+```
 This project implements a multi-user chat system using socket programming in Python.
 It consists of three main components: a server, a client, and a protocol handler.
 The system supports multiple clients communicating simultaneously with features like naming, messaging, blocking users, and broadcasting messages.
+```
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```
 Simple_Chat/
 ├── client.py          # Client-side application for connecting to the chat server
 ├── server.py          # Server-side application managing multiple client connections
 ├── protocol.py        # Protocol implementation handling message formatting and parsing
 ├── test 3 clients.png # Screenshot showing the project running
 └── README.md          # This documentation file
-
+```
 ---
 
-## Features and Commands Supported
+## 🎯 Features and Commands Supported
 
 - **NAME <name>**  
   Sets the client's username. The server replies with `HELLO <name>` if successful, or an error if the name is already taken.
@@ -37,7 +39,7 @@ Simple_Chat/
 
 ---
 
-## How It Works
+## 📊 How It Works
 
 - The server handles multiple clients simultaneously, managing their names and message routing.
 - The client supports non-blocking input and message receiving using Python's `select` module and `msvcrt` for Windows.
@@ -46,7 +48,7 @@ Simple_Chat/
 
 ---
 
-## Running the Project
+## 🛠 Running the Project
 
 1. Run the server:
    ```
@@ -60,9 +62,9 @@ Simple_Chat/
 
 ---
 
-## Notes
+## 📄 Notes
 
-* The project was developed as part of an advanced socket programming exercise.
+* The project was developed as part of an advanced socket programming exercise by Lior Masas.
 
 * The client supports multiple simultaneous connections and message routing.
 

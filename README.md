@@ -9,13 +9,11 @@ The system supports multiple clients communicating simultaneously with features 
 ## Project Structure
 
 Simple_Chat/
-│
-├── client.py # Client-side application for connecting to the chat server
-├── server.py # Server-side application managing multiple client connections
-├── protocol.py # Protocol implementation handling message formatting and parsing
+├── client.py          # Client-side application for connecting to the chat server
+├── server.py          # Server-side application managing multiple client connections
+├── protocol.py        # Protocol implementation handling message formatting and parsing
 ├── test 3 clients.png # Screenshot showing the project running
-└── README.md # This documentation file
-
+└── README.md          # This documentation file
 
 ---
 
@@ -54,16 +52,16 @@ Simple_Chat/
    ```
    python server.py
    ```
-   
 2. Run one or more clients (each in a separate terminal):
 	```
 	python client.py
 	```
-	
 3. Use the supported commands (NAME, MSG, GET_NAMES, BLOCK, EXIT) to interact in the chat.
 
+---
 
-##Notes
+## Notes
+
 * The project was developed as part of an advanced socket programming exercise.
 
 * The client supports multiple simultaneous connections and message routing.
